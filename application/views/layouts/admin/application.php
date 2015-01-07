@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <title>Admin Panel</title>
-
+<link rel="stylesheet" href="<?= base_url() ?>assets/css/font-awesome.min.css">
 </head>
 
 <body>

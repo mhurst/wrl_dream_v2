@@ -42,6 +42,15 @@ $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['admin'] = "admin/admin";
 
+/** Admin/Games **/
+$route['admin/listgames'] = "admin/games/listAllGames";
+$route['admin/addgame'] = "admin/games/addGame";
+$route['admin/editgame/(:num)'] = "admin/games/editGame/$1";
+
+/** Users **/
+$route['admin/listusers'] = "admin/games/listAllUsers";
+$route['admin/adduser'] = "admin/games/addUsers";
+$route['admin/edituser/(:num)'] = "admin/games/editUsers/$1";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
