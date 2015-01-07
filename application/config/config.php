@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://compwrl.dev:8888/';
+$config['base_url']	= 'http://localhost/WRLDream_v2/';
 
 /*
 |--------------------------------------------------------------------------
